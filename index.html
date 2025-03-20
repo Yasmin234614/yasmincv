@@ -14,7 +14,7 @@
     <!-- Links to our additional CSS styles -->
     <link rel="stylesheet" href="css/styles.css">
 
-    <title>Firstname Lastname's Resumé</title>
+    <title>yasmin mahamed resumé</title>
   </head>
   <!-- End of the head -->
 
@@ -34,6 +34,8 @@
         The "row" class is used for the Bootstrap grid.
       -->
       <header class="row resume-header justify-content-center">
+	<header class="row resume-header justify-content-center custom-heading">
+
         <!--
           A container to wrap around the portrait and align it. We use Bootstrap grid columns.
           This constrains the portrait to columns of decreasing sizes
@@ -43,7 +45,10 @@
             "w-100" makes sure the image takes the full width of the column it's in
             "rounded-circle" cuts a circle around the image
           -->
-          <img class="w-100 rounded-circle my-3" src="images/portrait " alt="Portrait of Yasmin Mahamed" width="160">
+         
+			
+			<img class="w-100 biography-details my-3" src="images/employers/portraitt.jpg" alt="Portrait of Yasmin Mahamed" width="160">
+			
         </div>
         <!--
           A container to wrap around your name and tagline. Full-width at small size, then columns of increasing size.
@@ -82,7 +87,7 @@
               <li class="biography-item row mb-2">
                 <!-- We're using a grid inside a grid so we can align logos and text -->
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/projector.svg" alt="Company logo" width="80">
+                  <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/writer.svg" alt="Company logo" width="80">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
                   <h4>Buas Hub content writer </h4>
@@ -100,7 +105,7 @@
               <li class="biography-item row mb-2">
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
                 <!-- We're using a grid inside a grid so we can align logos and text -->
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/trolley.svg" alt="Company logo" width="80">
+                  <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/perfume.svg" alt="Company logo" width="80">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
                   <h4>Douglas Employee,</h4>
@@ -137,7 +142,7 @@
               <!-- 2nd item in education -->
               <li class="biography-item row mb-2">
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/school.svg" alt="School logo" width="80">
+                  <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/school-cap.svg" alt="School logo" width="80">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
                   <h4>Havo Diploma, Bergen op zoom</h4>
@@ -172,22 +177,21 @@
             -->
             <ul class="contact-list list-unstyled">
               <li class="contact-item">
-                <a class="d-flex align-items-center" href="mailto:email@buas.nl" target="_blank">
+                <a class="d-flex align-items-center" href="https://www.buas.nl/en" target="_blank">
                   <img class="contact-icon" src="images/icons/envelope.svg" alt="Email">
                   email@buas.nl
                 </a>
               </li>
               <li class="contact-item">
                 <a class="d-flex align-items-center" href="https://www.instagram.com/" target="_blank">
-                  <img class="contact-icon" src="images/icons/facebook.svg" alt="Instagram">
+                  <img class="contact-icon" src="images/icons/instagram.svg" alt="Instagram">
                   Instagram Profile
                 </a>
               </li>
               <li class="contact-item">
-                <a class="d-flex align-items-center" href="https://github.com/" target="_blank">
-                  <img class="contact-icon" src="images/icons/github.svg" alt="LinkedIn">
-                  GitHub Profile
-                </a>
+                <a class="d-flex align-items-center" href="https://en.wikipedia.org/wiki/LinkedIn" target="_blank">
+                  <img class="contact-icon" src="images/icons/linkedin.svg" alt="LinkedIn">
+                &nbsp;Linkedin Profile</a>
               </li>
               <li class="contact-item">
                 <a class="d-flex align-items-center" href="https://www.tiktok.com/@bredauniversityas" target="_blank">
@@ -206,7 +210,7 @@
                 <h5 class="language-name w-50">Dutch</h5>
                 <div class="language-level w-50 border border-info border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute bg-warning h-100 w-100"></div>
+                  <div class="language-progress position-absolute dutch-color h-100 w-100"></div>
                   <h6 class="position-absolute w-100 text-center top-0 py-1">Native</h6>
                 </div>
               </li>
@@ -214,7 +218,7 @@
                 <h5 class="language-name w-50">English</h5>
                 <div class="language-level w-50 border border-info border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute bg-warning h-100 w-75"></div>
+                  <div class="language-progress position-absolute english-color h-100 w-75"></div>
                   <h6 class="position-absolute w-100 text-center top-0 py-1">Full proficiency</h6>
                 </div>
               </li>
@@ -230,7 +234,7 @@
                 <h5 class="language-name w-50">Arabic</h5>
                 <div class="language-level w-50 border border-info border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute h-100 w-25"></div>
+                  <div class="language-progress position-absolute arabic-color h-100 w-25"></div>
                   <h6 class="position-absolute w-100 text-center top-0 py-1">Beginner</h6>
                 </div>
               </li>
@@ -255,6 +259,11 @@
             <ul class="skill-list list-unstyled">
               <li class="skill-item">Baking</li>
               <li class="skill-item">Photography</li>
+			  <li class="skill-item">Fashion</li>
+			  <li class="skill-item">Sketching</li>
+			  <li class="skill-item">Writing</li>
+			  <li class="skill-item">Drinking matcha</li>
+				
             </ul>
           </section>
 
