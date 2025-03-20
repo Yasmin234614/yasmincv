@@ -2,27 +2,45 @@
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 /* Styles for the body */
 
 body {
-	font-family: Montserrat Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #202030;
-	background-color: beige;
+	font-family: "Montserrat Lato", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #232323;
+	background-color: #C6696B;
 }
+
+.custom-heading {
+    font-family: 'Montserrat', 'Lato', sans-serif;
+    color: white;
+    font-size: 32px;
+    background-color: #C6696B;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
+h3, h4, h6 {
+    color: darkred;
+}
+
+
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: beige;
+    background-color: #E48586;
 }
 
 .resume-main {
-	background-color: cadetblue;
+	background-color: lightpink;
 }
 
 .resume-aside {
-	background-color: #B0E4EE;
+	background-color: #FEE6E3;
 }
 
 /* Styles for lists in the document */
@@ -51,8 +69,29 @@ body {
 }
 
 .language-color{
-	background-color: aqua
+	background-color: lightcoral
 }
+
+.arabic-color{
+	background-color: #E66C6C
+}
+
+.english-color{
+	background-color: #E66C6C
+}
+
+.dutch-color{
+	background-color: #E66C6C
+}
+
+.custom-highlight {
+    background-color: #ffcccb;  
+    color: #333;              
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 15px;
+}
+
 
 
 
