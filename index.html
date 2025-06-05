@@ -27,9 +27,35 @@
       The "my-sm-4" class adds a margin (m) vertical (y) at sizes small (-sm-) and above, of 4 x 6 pixels
       The "resume-container" class doesn't come from Bootstrap, you can use it for your own styles
     -->
-    <div class="container shadow-lg my-sm-4 resume-container">
-    <!-- Your content here -->
-</div>
+    <body class="d-flex flex-column h-100 justify-content-between">
+
+  <!-- Start of main container -->
+  <div class="container shadow-lg my-sm-4 resume-container">
+
+    <!-- Header section -->
+    <header class="row resume-header justify-content-center">
+      <!-- Header content here -->
+    </header>
+
+    <!-- Bottom resume content -->
+    <div class="row resume-bottom">
+      
+      <!-- Main section -->
+      <main class="col-md-7 col-lg-8 col-xl-9 resume-main">
+        <!-- Main content here -->
+      </main>
+
+      <!-- Aside section -->
+      <aside class="col-md-5 col-lg-4 col-xl-3 resume-aside">
+        <!-- Aside content here -->
+      </aside>
+
+    </div>
+
+  </div> <!-- End of main container -->
+
+</body>
+
 
       <!--
         <header> is a semantic element: it works exactly like <div>, but it gives information about the role of the code below.
@@ -190,7 +216,7 @@
                 </a>
               </li>
               <li class="contact-item">
-                <a class="d-flex align-items-center" href="https://en.wikipedia.org/wiki/LinkedIn" target="_blank">
+                <a class="d-flex align-items-center" href="https://www.linkedin.com/in/yasmin-mahamed-83425232a/" target="_blank">
                   <img class="contact-icon" src="images/icons/linkedin.svg" alt="LinkedIn">
                 &nbsp;Linkedin Profile</a>
               </li>
