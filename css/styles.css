@@ -1,20 +1,25 @@
-/* Use this file to use your own styles*/
 
-/* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
+/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 /* Styles for the body */
-
 body {
-	font-family: "Montserrat Lato", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #232323;
-	background-color: #C6696B;
+
+    font-family: 'Montserrat', 'Lato', sans-serif;
+    color: #232323;
+    background-color: #C6696B; 
+}
+
+/* mijn  eigen custom class */
+.resume-container {
+    background-color: white; 
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 .custom-heading {
-    font-family: 'Montserrat', 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 32px;
     background-color: #C6696B;
@@ -22,67 +27,52 @@ body {
     border-radius: 8px;
 }
 
-
 h3, h4, h6 {
     color: darkred;
 }
 
-
-
-/* Styles for custom classes in the document. (There are more, try to find them out!) */
-
+/* Containers en Secties */
 .resume-header {
-    background-color: #E48586;
+    background-color: #E48586; /* kleur header */
+    color: white;
 }
 
 .resume-main {
-	background-color: lightpink;
+    background-color: #ffffff; 
 }
 
 .resume-aside {
-	background-color: #FEE6E3;
+    background-color: #FEE6E3; 
 }
 
-/* Styles for lists in the document */
-
+/* Styles for lists */
 .biography-details li::before, .skill-list li::before {
-	content: ">";
-	font-weight: 800;
-	display: inline-block;
-	width: 1em;
-	margin-left: -1em;
+    content: ">";
+    font-weight: 800;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
 }
 
 .biography-details li::before {
-	color: #B16129;
+    color: #B16129;
 }
 
 .biography-details li, .skill-list li {
-	padding-left: 1em;
+    padding-left: 1em;
 }
 
-/* Styles for contact icons */
-
+/* Contact icons */
 .contact-icon {
-	height: 1em;
-	flex-basis: 1.4em;
+    height: 1.2em;
+    margin-right: 10px;
 }
 
-.language-color{
-	background-color: lightcoral
-}
-
-.arabic-color{
-	background-color: #E66C6C
-}
-
-.english-color{
-	background-color: #E66C6C
-}
-
-.dutch-color{
-	background-color: #E66C6C
-}
+/* Talen balkjes */
+.language-color { background-color: lightcoral; }
+.arabic-color   { background-color: #E66C6C; }
+.english-color  { background-color: #E66C6C; }
+.dutch-color    { background-color: #E66C6C; }
 
 .custom-highlight {
     background-color: #ffcccb;  
@@ -91,7 +81,6 @@ h3, h4, h6 {
     border-radius: 10px;
     padding: 15px;
 }
-
 
 
 
