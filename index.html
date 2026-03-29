@@ -1,59 +1,148 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lato:wght@400;700&display=swap');
+<!doctype html>
+<html class="h-100" lang="en">
 
-body {
-	font-family: 'Montserrat', 'Lato', sans-serif;
-	color: #232323;
-	background-color: #C6696B; 
-}
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-.resume-container {
-    background-color: white;
-}
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
 
-.resume-header {
-	background-color: #E48586;
-}
+  <link rel="stylesheet" href="css/styles.css" />
 
-.resume-main {
-	background-color: white;
-}
+  <title>Yasmin Mahamed Resumé</title>
+</head>
 
-.resume-aside {
-	background-color: #FEE6E3;
-}
+<body class="d-flex flex-column h-100 justify-content-between">
 
-h3, h4, h6 {
-	color: darkred;
-}
+  <div class="container shadow-lg my-sm-4 resume-container">
 
-/* De balkjes voor talen */
-.language-level {
-    height: 35px;
-    background-color: white;
-}
+    <header class="row resume-header justify-content-center">
+      <div class="portrait-container col-5 col-sm-4 col-md-3 col-lg-2">
+        <img class="w-100 biography-details my-3 rounded-circle" src="images/icons/portrait.jpg"
+          alt="Portrait of Yasmin Mahamed" width="160" />
+      </div>
+      <div class="col-12 col-sm-8 col-md-9 col-lg-10 my-3 header-content">
+        <h1 class="fw-bolder">Yasmin Mahamed</h1>
+        <h5 class="fst-italic tagline">Your expert in creative writing.</h5>
+      </div>
+    </header>
 
-.dutch-color, .english-color, .language-color, .arabic-color {
-	background-color: #E66C6C;
-	
+    <div class="row resume-bottom">
 
-}
+      <main class="col-md-7 col-lg-8 col-xl-9 resume-main">
+        <section class="my-3 biography-section">
+          <h2>Professional Experience</h2>
+          <ul class="biography-list list-unstyled">
+            <li class="biography-item row mb-2">
+              <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
+                <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/writer.svg" alt="Writer logo" width="80" />
+              </div>
+              <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
+                <h4>Buas Hub Content Writer</h4>
+                <h5>September 2024 &ndash; January 2025</h5>
+                <ul class="biography-details list-unstyled">
+                  <li>Wrote articles for the Hub platform</li>
+                  <li>Provided peer feedback and edits</li>
+                  <li>Part of my studies at BUas</li>
+                </ul>
+              </div>
+            </li>
+            <li class="biography-item row mb-2">
+              <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
+                <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/perfume.svg" alt="Douglas logo" width="80" />
+              </div>
+              <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
+                <h4>Douglas Sales Assistant</h4>
+                <h5>November 2023 &ndash; Present</h5>
+                <ul class="biography-details list-unstyled">
+                  <li>Supported customers with product recommendations</li>
+                  <li>Maintained store presentation and organization</li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </section>
 
+        <section class="my-3 biography-section">
+          <h2>Education</h2>
+          <ul class="biography-list list-unstyled">
+            <li class="biography-item row mb-2">
+              <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
+                <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/logo-buas.svg" alt="BUas logo" width="120" />
+              </div>
+              <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
+                <h4>BA in Creative Business, BUas</h4>
+                <h5>2023 &ndash; Present</h5>
+                <ul class="biography-details list-unstyled">
+                  <li>Propaedeutic diploma obtained</li>
+                  <li>Exchange semester at Taylor's University, Malaysia</li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
 
-.contact-icon {
-	height: 1.2em;
-	margin-right: 10px;
-}
+      <aside class="col-md-5 col-lg-4 col-xl-3 resume-aside">
+        <section class="my-3 aside-section">
+          <h2>Contact</h2>
+          <ul class="contact-list list-unstyled">
+            <li class="contact-item">
+              <a class="d-flex align-items-center" href="https://www.linkedin.com/in/yasmin-mahamed-83425232a/" target="_blank">
+                <img class="contact-icon" src="images/icons/linkedin.svg" alt="LinkedIn" />
+                LinkedIn Profile
+              </a>
+            </li>
+            <li class="contact-item">
+              <a class="d-flex align-items-center" href="https://www.instagram.com/" target="_blank">
+                <img class="contact-icon" src="images/icons/instagram.svg" alt="Instagram" />
+                Instagram Profile
+              </a>
+            </li>
+          </ul>
+        </section>
 
-.biography-details li::before {
-	content: "> ";
-	font-weight: 800;
-	color: #B16129;
-}
-.resume-bottom {
-    display: flex;
-}
+        <section class="my-3 aside-section">
+          <h2>Languages</h2>
+          <ul class="language-list list-unstyled">
+            <li class="language-item d-flex mb-1">
+              <h5 class="language-name w-50">Dutch</h5>
+              <div class="language-level w-50 border border-info border-2 position-relative">
+                <div class="language-progress position-absolute dutch-color h-100 w-100"></div>
+                <h6 class="position-absolute w-100 text-center top-0 py-1">Native</h6>
+              </div>
+            </li>
+            <li class="language-item d-flex mb-1">
+              <h5 class="language-name w-50">English</h5>
+              <div class="language-level w-50 border border-info border-2 position-relative">
+                <div class="language-progress position-absolute english-color h-100 w-75"></div>
+                <h6 class="position-absolute w-100 text-center top-0 py-1">Full proficiency</h6>
+              </div>
+            </li>
+            <li class="language-item d-flex mb-1">
+              <h5 class="language-name w-50">Somali</h5>
+              <div class="language-level w-50 border border-info border-2 position-relative">
+                <div class="language-progress position-absolute language-color h-100 w-100"></div>
+                <h6 class="position-absolute w-100 text-center top-0 py-1">Native</h6>
+              </div>
+            </li>
+            <li class="language-item d-flex mb-1">
+              <h5 class="language-name w-50">Arabic</h5>
+              <div class="language-level w-50 border border-info border-2 position-relative">
+                <div class="language-progress position-absolute arabic-color h-100 w-25"></div>
+                <h6 class="position-absolute w-100 text-center top-0 py-1">Beginner</h6>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </aside>
 
-.resume-aside {
-    background-color: #FEE6E3;
-    flex: 1; 
-}
+    </div>
+  </div>  <footer class="text-center py-3">
+    Created as part of the <a href="https://www.buas.nl/en/programmes/creative-business" target="_blank">Bachelor of Creative Business at Breda University of Applied Sciences.</a>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
