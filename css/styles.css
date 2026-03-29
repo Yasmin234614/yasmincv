@@ -1,57 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lato:wght@400;700&display=swap');
 
 body {
-	font-family: 'Montserrat', 'Lato', sans-serif;
-	color: #232323;
-	background-color: #C6696B; 
+  font-family: 'Montserrat', 'Lato', sans-serif;
+  color: #232323;
+  background-color: #C6696B;
 }
 
 .resume-container {
-    background-color: white;
+  background-color: white;
 }
 
 .resume-header {
-	background-color: #E48586;
+  background-color: #E48586;
 }
 
 .resume-main {
-	background-color: white;
+  background-color: white;
 }
 
 .resume-aside {
-	background-color: #FEE6E3;
+  background-color: #FEE6E3;
+  flex: 1;
+}
+
+.resume-bottom {
+  display: flex;
 }
 
 h3, h4, h6 {
-	color: darkred;
+  color: darkred;
 }
 
-/* De balkjes voor talen */
 .language-level {
-    height: 35px;
-    background-color: white;
+  height: 35px;
+  background-color: white;
 }
 
 .dutch-color, .english-color, .language-color, .arabic-color {
-	background-color: #E66C6C;
-
+  background-color: #E66C6C;
 }
 
 .contact-icon {
-	height: 1.2em;
-	margin-right: 10px;
+  height: 1.2em;
+  margin-right: 10px;
 }
 
 .biography-details li::before {
-	content: "> ";
-	font-weight: 800;
-	color: #B16129;
-}
-.resume-bottom {
-    display: flex;
-}
-
-.resume-aside {
-    background-color: #FEE6E3;
-    flex: 1; 
+  content: "> ";
+  font-weight: 800;
+  color: #B16129;
 }
