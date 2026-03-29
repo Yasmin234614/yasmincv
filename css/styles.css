@@ -1,94 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lato:wght@400;700&display=swap');
 
-/* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-
-/* Styles for the body */
 body {
-
-    font-family: 'Montserrat', 'Lato', sans-serif;
-    color: #232323;
-    background-color: #C6696B; 
+	font-family: 'Montserrat', 'Lato', sans-serif;
+	color: #232323;
+	background-color: #C6696B; 
 }
 
-/* mijn  eigen custom class */
 .resume-container {
-    background-color: white; 
-    border-radius: 15px;
-    overflow: hidden;
+    background-color: white;
 }
 
-.custom-heading {
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    font-size: 32px;
-    background-color: #C6696B;
-    padding: 10px;
-    border-radius: 8px;
-}
-
-h3, h4, h6 {
-    color: darkred;
-}
-
-/* Containers en Secties */
 .resume-header {
-    background-color: #E48586; /* kleur header */
-    color: white;
+	background-color: #E48586;
 }
 
 .resume-main {
-    background-color: #ffffff; 
+	background-color: white;
 }
 
 .resume-aside {
-    background-color: #FEE6E3; 
+	background-color: #FEE6E3;
 }
 
-/* Styles for lists */
-.biography-details li::before, .skill-list li::before {
-    content: ">";
-    font-weight: 800;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
+h3, h4, h6 {
+	color: darkred;
+}
+
+/* De balkjes voor talen */
+.language-level {
+    height: 35px;
+    background-color: white;
+}
+
+.dutch-color, .english-color, .language-color, .arabic-color {
+	background-color: #E66C6C;
+	
+
+}
+
+
+.contact-icon {
+	height: 1.2em;
+	margin-right: 10px;
 }
 
 .biography-details li::before {
-    color: #B16129;
+	content: "> ";
+	font-weight: 800;
+	color: #B16129;
+}
+.resume-bottom {
+    display: flex;
 }
 
-.biography-details li, .skill-list li {
-    padding-left: 1em;
+.resume-aside {
+    background-color: #FEE6E3;
+    flex: 1; 
 }
-
-/* Contact icons */
-.contact-icon {
-    height: 1.2em;
-    margin-right: 10px;
-}
-
-/* Talen balkjes */
-.language-color { background-color: lightcoral; }
-.arabic-color   { background-color: #E66C6C; }
-.english-color  { background-color: #E66C6C; }
-.dutch-color    { background-color: #E66C6C; }
-
-.custom-highlight {
-    background-color: #ffcccb;  
-    color: #333;              
-    font-weight: bold;
-    border-radius: 10px;
-    padding: 15px;
-}
-
-
-
-
-
-
-
-	
-	
-	
-	
